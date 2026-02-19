@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="566ce025-cef6-4a8e-93cc-1cc95ed2e8b2" name="Changes" comment="we're so back" />
+    <list default="true" id="566ce025-cef6-4a8e-93cc-1cc95ed2e8b2" name="Changes" comment="we're so back">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-projectwavelength-0.1-BETA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-projectwavelength-0.1-BETA.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectwavelength-0.1-BETA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projectwavelength-0.1-BETA.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +39,15 @@
     &quot;accountId&quot;: &quot;4a003604-efb9-4b7f-b324-afd1089b7484&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.class" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -74,6 +86,8 @@
   <component name="RunManager">
     <configuration name="projectwavelength-0.1-BETA.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/projectwavelength-0.1-BETA.jar" />
+      <option name="VM_PARAMETERS" value="-XstartOnFirstThread" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
@@ -117,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771526146180</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="we're so back">
+      <option name="closed" value="true" />
+      <created>1771528124165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771528124165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
