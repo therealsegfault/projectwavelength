@@ -95,10 +95,13 @@ public class DesktopLauncherLite extends ApplicationAdapter {
         batch.dispose();
         font.dispose();
     }
+
     public static void main(String[] args) {
-        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration config = new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
+        com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration config =
+                new com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration();
         config.setTitle("Wavelength Lite");
         config.setWindowedMode(800, 600);
+        // config.setHdpiMode(com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration.HdpiMode.Logical);
         new com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application(new DesktopLauncherLite(), config);
     }
 }
