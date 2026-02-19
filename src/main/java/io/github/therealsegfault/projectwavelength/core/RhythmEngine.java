@@ -3,143 +3,69 @@ package io.github.therealsegfault.projectwavelength.core;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Minimal time-based rhythm engine core.
- * Absolute time (seconds), earliest-hittable-per-lane, difficulty-controlled approach time.
- */
 public class RhythmEngine {
+    private List<Note> notes;
+    private int laneCount;
+    private double songLength;
+    private JudgementWindow judgementWindow;
 
-    /** Single lane note */
+    private int score;
+
+    public RhythmEngine(List<Note> notes, int laneCount, double songLength, JudgementWindow judgementWindow) {
+        this.notes = new ArrayList<>(notes);
+        this.laneCount = laneCount;
+        this.songLength = songLength;
+        this.judgementWindow = judgementWindow;
+        this.score = 0;
+    }
+
+    public void update(double currentTime) {
+        // Update logic for notes, scoring, etc.
+    }
+
+    public String press(int lane, double time) {
+        // Logic for pressing a lane at a given time
+        // Return judgement string
+        return "Hit";
+    }
+
+    public String release(int lane, double time) {
+        // Logic for releasing a lane at a given time
+        // Return judgement string
+        return "Released";
+    }
+
+    public String getScoreSummary() {
+        return Integer.toString(score);
+    }
+
     public static class Note {
-        public final int lane;
-        public final double hitTime; // seconds
-        public final int seq; // stable ordering
+        public int lane;
+        public double startTime;
+        public double endTime;
+        public int id;
 
-        public Note(int lane, double hitTime, int seq) {
+        public Note(int lane, double startTime, double endTime, int id) {
             this.lane = lane;
-            this.hitTime = hitTime;
-            this.seq = seq;
+            this.startTime = startTime;
+            this.endTime = endTime;
+            this.id = id;
         }
     }
 
-    /** Judgement windows (seconds relative to hitTime) */
     public static class JudgementWindow {
-        public final double perfect;
-        public final double good;
-        public final double safe;
-        public final double sad;
-        public final double miss;
+        public double perfect;
+        public double great;
+        public double good;
+        public double bad;
+        public double miss;
 
-        public JudgementWindow(double perfect, double good, double safe, double sad, double miss) {
+        public JudgementWindow(double perfect, double great, double good, double bad, double miss) {
             this.perfect = perfect;
+            this.great = great;
             this.good = good;
-            this.safe = safe;
-            this.sad = sad;
+            this.bad = bad;
             this.miss = miss;
         }
-    }
-
-    /** Active note with progress tracking */
-    private static class ActiveNote {
-        final Note note;
-        boolean judged = false;
-
-        ActiveNote(Note note) {
-            this.note = note;
-        }
-    }
-
-    private final int laneCount;
-    private final List<Note> notes; // sorted ascending by hitTime, seq
-    private final JudgementWindow judgementWindow;
-    private final double approachTime; // difficulty controlled
-    private final List<ActiveNote> activeNotes = new ArrayList<>();
-
-    private int nextNoteIndex = 0;
-
-    public RhythmEngine(int laneCount, List<Note> notes, JudgementWindow judgementWindow, double approachTime) {
-        this.laneCount = laneCount;
-        this.notes = notes;
-        this.judgementWindow = judgementWindow;
-        this.approachTime = approachTime;
-    }
-
-    /** Call every frame with current absolute time */
-    public void update(double currentTime) {
-        // Spawn new notes
-        while (nextNoteIndex < notes.size() &&
-                notes.get(nextNoteIndex).hitTime - approachTime <= currentTime) {
-            activeNotes.add(new ActiveNote(notes.get(nextNoteIndex)));
-            nextNoteIndex++;
-        }
-
-        // Remove notes that expired beyond miss window
-        activeNotes.removeIf(an -> !an.judged && currentTime - an.note.hitTime > judgementWindow.miss);
-    }
-
-    /**
-     * Call when player hits a lane
-     * Returns the judgement string
-     */
-    public String hit(int lane, double currentTime) {
-        ActiveNote earliest = null;
-
-        // Find earliest hittable note for the lane
-        for (ActiveNote an : activeNotes) {
-            if (!an.judged && an.note.lane == lane && an.note.hitTime - judgementWindow.miss <= currentTime) {
-                if (earliest == null || an.note.hitTime < earliest.note.hitTime ||
-                        (an.note.hitTime == earliest.note.hitTime && an.note.seq < earliest.note.seq)) {
-                    earliest = an;
-                }
-            }
-        }
-
-        if (earliest == null) return "none";
-
-        double delta = Math.abs(currentTime - earliest.note.hitTime);
-        earliest.judged = true;
-
-        if (delta <= judgementWindow.perfect) return "perfect";
-        if (delta <= judgementWindow.good) return "good";
-        if (delta <= judgementWindow.safe) return "safe";
-        if (delta <= judgementWindow.sad) return "sad";
-        return "miss";
-    }
-
-    /** Returns progress 0..1 for rendering approach effects */
-    public double getNoteProgress(Note note, double currentTime) {
-        double progress = (currentTime - (note.hitTime - approachTime)) / approachTime;
-        return Math.min(Math.max(progress, 0.0), 1.0);
-    }
-
-    public List<ActiveNote> getActiveNotes() {
-        return new ArrayList<>(activeNotes);
-    }
-
-    /** Quick test main */
-    public static void main(String[] args) {
-        List<Note> testNotes = List.of(
-                new Note(0, 1.0, 0),
-                new Note(1, 2.0, 1),
-                new Note(0, 3.0, 2)
-        );
-
-        RhythmEngine engine = new RhythmEngine(
-                2,
-                testNotes,
-                new JudgementWindow(0.1, 0.25, 0.34, 0.42, 0.5),
-                2.0
-        );
-
-        double t = 0.0;
-        double dt = 0.1;
-        while (t < 5.0) {
-            engine.update(t);
-            if (Math.abs(t - 1.0) < 1e-6) engine.hit(0, t);
-            if (Math.abs(t - 2.0) < 1e-6) engine.hit(1, t);
-            t += dt;
-        }
-
-        System.out.println("Active notes remaining: " + engine.getActiveNotes().size());
     }
 }

@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="566ce025-cef6-4a8e-93cc-1cc95ed2e8b2" name="Changes" comment="LETS GO FIRST BOOT">
+    <list default="true" id="566ce025-cef6-4a8e-93cc-1cc95ed2e8b2" name="Changes" comment="&#10;i tried to change a&#10;font it took 2 hours and it&#10;didn't work at all&#10;&#10;-Java Haiku">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/therealsegfault/projectwavelength/core/RhythmEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/therealsegfault/projectwavelength/core/RhythmEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine$ActiveNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine$JudgementWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine$JudgementWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine$Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine$Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite$ScreenState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite$ScreenState.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-projectwavelength-0.1-BETA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-projectwavelength-0.1-BETA.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/projectwavelength-0.1-BETA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projectwavelength-0.1-BETA.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,12 +154,29 @@
       <option name="project" value="LOCAL" />
       <updated>1771528732977</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;i tried to change a&#10;font it took 2 hours and it&#10;didn't work at all&#10;&#10;-Java Haiku">
+      <option name="closed" value="true" />
+      <created>1771532715991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771532715991</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&#10;i tried to change a&#10;font it took 2 hours and it&#10;didn't work at all&#10;&#10;-Java Haiku">
+      <option name="closed" value="true" />
+      <created>1771532721173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771532721173</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="we're so back" />
     <MESSAGE value="LETS GO FIRST BOOT" />
-    <option name="LAST_COMMIT_MESSAGE" value="LETS GO FIRST BOOT" />
+    <MESSAGE value="&#10;i tried to change a&#10;font it took 2 hours and it&#10;didn't work at all&#10;&#10;-Java Haiku" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;i tried to change a&#10;font it took 2 hours and it&#10;didn't work at all&#10;&#10;-Java Haiku" />
   </component>
 </project>
