@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="566ce025-cef6-4a8e-93cc-1cc95ed2e8b2" name="Changes" comment="&#10;i tried to change a&#10;font it took 2 hours and it&#10;didn't work at all&#10;&#10;-Java Haiku">
+    <list default="true" id="566ce025-cef6-4a8e-93cc-1cc95ed2e8b2" name="Changes" comment="   right, after 6 hours&#10;   fukcing killing myself it&#10;   finally works thank fuck&#10;   -Java Haiku, but I missed a syllable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/therealsegfault/projectwavelength/core/RhythmEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/therealsegfault/projectwavelength/core/RhythmEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine$ActiveNote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine$JudgementWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine$JudgementWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine$Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine$Note.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/core/RhythmEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite$ScreenState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite$ScreenState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-projectwavelength-0.1-BETA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-projectwavelength-0.1-BETA.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/projectwavelength-0.1-BETA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projectwavelength-0.1-BETA.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,26 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "JAR Application.projectwavelength-0.1-BETA.jar.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;JAR Application.projectwavelength-0.1-BETA.jar.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/src/main/java/io/github/therealsegfault/projectwavelength/core" />
@@ -95,17 +84,6 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/projectwavelength-0.1-BETA.jar" />
       <option name="VM_PARAMETERS" value="-XstartOnFirstThread" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="projectwavelength" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="projectwavelength" />
-      <option name="filePath" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -170,13 +148,30 @@
       <option name="project" value="LOCAL" />
       <updated>1771532721173</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="   right, after 6 hours&#10;   fukcing killing myself it&#10;   finally works thank fuck&#10;   -Java Haiku, but I missed a syllable">
+      <option name="closed" value="true" />
+      <created>1771537486407</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771537486407</updated>
+    </task>
+    <task id="LOCAL-00007" summary="   right, after 6 hours&#10;   fukcing killing myself it&#10;   finally works thank fuck&#10;   -Java Haiku, but I missed a syllable">
+      <option name="closed" value="true" />
+      <created>1771537492086</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771537492086</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="we're so back" />
     <MESSAGE value="LETS GO FIRST BOOT" />
     <MESSAGE value="&#10;i tried to change a&#10;font it took 2 hours and it&#10;didn't work at all&#10;&#10;-Java Haiku" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;i tried to change a&#10;font it took 2 hours and it&#10;didn't work at all&#10;&#10;-Java Haiku" />
+    <MESSAGE value="   right, after 6 hours&#10;   fukcing killing myself it&#10;   finally works thank fuck&#10;   -Java Haiku, but I missed a syllable" />
+    <option name="LAST_COMMIT_MESSAGE" value="   right, after 6 hours&#10;   fukcing killing myself it&#10;   finally works thank fuck&#10;   -Java Haiku, but I missed a syllable" />
   </component>
 </project>
