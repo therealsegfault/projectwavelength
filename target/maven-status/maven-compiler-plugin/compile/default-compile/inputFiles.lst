@@ -1,2 +1,8 @@
-/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength/src/main/java/io/github/therealsegfault/projectwavelength/core/RhythmEngine.java
-/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength/src/main/java/io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.java
+/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength/src/main/java/io/github/therealsegfault/projectwavelength/Chart.java
+/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength/src/main/java/io/github/therealsegfault/projectwavelength/DesktopLauncher.java
+/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength/src/main/java/io/github/therealsegfault/projectwavelength/Difficulty.java
+/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength/src/main/java/io/github/therealsegfault/projectwavelength/GameConfig.java
+/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength/src/main/java/io/github/therealsegfault/projectwavelength/Note.java
+/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength/src/main/java/io/github/therealsegfault/projectwavelength/RhythmEngine.java
+/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength/src/main/java/io/github/therealsegfault/projectwavelength/RhythmScreen.java
+/Users/samuelpedestal/Maven Projects/GitHub/projectwavelength/src/main/java/io/github/therealsegfault/projectwavelength/TitleScreen.java

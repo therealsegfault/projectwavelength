@@ -1,5 +1,11 @@
-io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite$ScreenState.class
+io/github/therealsegfault/projectwavelength/desktop/screens/RhythmScreen$Particle.class
+io/github/therealsegfault/projectwavelength/core/Chart$1.class
+io/github/therealsegfault/projectwavelength/desktop/screens/RhythmScreen.class
+io/github/therealsegfault/projectwavelength/core/GameConfig$Builder.class
+io/github/therealsegfault/projectwavelength/desktop/DesktopLauncher.class
+io/github/therealsegfault/projectwavelength/core/Difficulty.class
+io/github/therealsegfault/projectwavelength/core/GameConfig.class
+io/github/therealsegfault/projectwavelength/core/Chart.class
 io/github/therealsegfault/projectwavelength/core/RhythmEngine.class
-io/github/therealsegfault/projectwavelength/desktop/DesktopLauncherLite.class
-io/github/therealsegfault/projectwavelength/core/RhythmEngine$JudgementWindow.class
-io/github/therealsegfault/projectwavelength/core/RhythmEngine$Note.class
+io/github/therealsegfault/projectwavelength/desktop/screens/TitleScreen.class
+io/github/therealsegfault/projectwavelength/core/Note.class
