@@ -99,7 +99,7 @@ public class RhythmScreen implements Screen {
 
     // ── Input key map ─────────────────────────────────────────────
     private static final int[] LANE_KEYS = {
-            Input.Keys.A, Input.Keys.S, Input.Keys.D, Input.Keys.F
+            Input.Keys.A, Input.Keys.S, Input.Keys.K, Input.Keys.L
     };
     private final boolean[] laneHeld = new boolean[LANES];
 
